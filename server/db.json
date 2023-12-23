@@ -1,0 +1,56 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "title": "Video 1",
+      "urlVideo": "https://www.youtube.com/watch?v=1",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "Video 2",
+      "url": "https://www.youtube.com/watch?v=2",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "title": "Video 3",
+      "url": "https://www.youtube.com/watch?v=3",
+      "userId": 2
+    },
+    {
+      "id": 4,
+      "title": "Video 4",
+      "url": "https://www.youtube.com/watch?v=1",
+      "userId": 2
+    },
+    {
+      "id": 5,
+      "title": "Video 5",
+      "url": "https://www.youtube.com/watch?v=2",
+      "userId": 2
+    },
+    {
+      "id": 6,
+      "title": "Video 6",
+      "url": "https://www.youtube.com/watch?v=3",
+      "userId": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "usuario@teste.com",
+      "password": "senha123",
+      "name": "Juanita Day",
+      "profilePicture": "https://randomuser.me/api/portraits/women/19.jpg"
+    },
+    {
+      "id": 2,
+      "email": "usuario70@teste.com",
+      "password": "senha123",
+      "name": "Brad Grant",
+      "profilePicture": "https://randomuser.me/api/portraits/men/70.jpg"
+    }
+  ]
+}

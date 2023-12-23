@@ -7,12 +7,14 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "server:json": "json-server --watch server/db.json --port 3333"
   },
   "dependencies": {
     "@expo-google-fonts/open-sans": "^0.2.3",
     "expo": "~49.0.15",
     "expo-status-bar": "~1.6.0",
+    "json-server": "^0.17.4",
     "react": "18.2.0",
     "react-native": "0.72.6",
     "styled-components": "^6.1.2"
