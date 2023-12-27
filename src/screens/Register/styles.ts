@@ -10,6 +10,7 @@ export const Logo = styled.Image`
   object-fit: contain;
   align-self: center;
   border-radius: 20px;
+  margin-top: -0px;
 `
 
 export const Header = styled.View`
@@ -29,8 +30,3 @@ export const Form = styled.View`
 `
 
 export const Footer = styled.View``
-
-export const WrapperRegister = styled.View`
-  margin-top: 50px;
-  margin-bottom: 50px;
-`

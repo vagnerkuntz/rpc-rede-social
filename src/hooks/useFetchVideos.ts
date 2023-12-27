@@ -9,7 +9,7 @@ export interface Video {
 
 async function videoRequest(page: number): Promise<Video[]> {
   const response = await fetch(
-    `http://localhost:3333/videos?_page=${page}&_limit=3`
+    `http://192.168.1.7:3333/videos?_page=${page}&_limit=8`
   )
   const data = await response.json()
   return data
